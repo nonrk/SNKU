@@ -12,7 +12,7 @@ class Kernel :public Interface
 public:
 	Kernel();
 	virtual ~Kernel();
-	virtual int ShowMsg();//test fun
+	virtual const char * ShowMsg();//test fun
 private:
 	//Add your variables here
 };

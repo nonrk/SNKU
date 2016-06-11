@@ -7,6 +7,7 @@
 */
 #include"stdafx.h"
 #include"kernel.h"
+#include "NeuronBase.h"
 
 Kernel::Kernel()
 {
@@ -18,10 +19,11 @@ Kernel::~Kernel()
 	return;
 }
 /*test fun*/
-int Kernel::ShowMsg()
+const char * Kernel::ShowMsg()
 {
-	int a = 10;
-	int b = 33;
-	int c = a + b;
-	return c;
+	const char *P;
+	NeuronBase nb;
+	P=nb.ActiveNeuron();
+
+	return P;
 }

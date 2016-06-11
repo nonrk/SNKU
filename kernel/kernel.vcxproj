@@ -29,7 +29,7 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
@@ -143,6 +143,8 @@
   <ItemGroup>
     <ClInclude Include="Interface.h" />
     <ClInclude Include="kernel.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="NeuronBase.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -163,6 +165,8 @@
     </ClCompile>
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="kernel.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="NeuronBase.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
