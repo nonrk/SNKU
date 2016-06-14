@@ -19,11 +19,8 @@ Kernel::~Kernel()
 	return;
 }
 /*test fun*/
-const char * Kernel::ShowMsg()
+const char* Kernel::NeuronID()
 {
-	const char *P;
 	NeuronBase nb;
-	P=nb.ActiveNeuron();
-
-	return P;
+	return nb.activeNeuron().c_str();
 }

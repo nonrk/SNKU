@@ -145,6 +145,7 @@
     <ClInclude Include="kernel.h" />
     <ClInclude Include="md5.h" />
     <ClInclude Include="NeuronBase.h" />
+    <ClInclude Include="NeuronIO.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -167,6 +168,7 @@
     <ClCompile Include="kernel.cpp" />
     <ClCompile Include="md5.cpp" />
     <ClCompile Include="NeuronBase.cpp" />
+    <ClCompile Include="NeuronIO.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

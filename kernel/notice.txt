@@ -1,0 +1,8 @@
+[include content]
+neuron struct
+Init function 
+insert data function
+update weight function
+vector callback val index function
+neuron thread
+ 
