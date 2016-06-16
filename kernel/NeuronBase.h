@@ -16,8 +16,7 @@ public:
 	~NeuronBase();
 
 public:
-	string  activeNeuron();//test function
-	string  createNeuron(int startNum, int ioNum);
-	void createThread(int td_num);
+	vector<int> activeNeuron();//test function
+	vector<int> createNeuron();
 };
 

@@ -13,7 +13,7 @@ class Kernel :public Interface
 public:
 	Kernel();
 	virtual ~Kernel();
-	virtual const char* NeuronID();//test fun
+	virtual const char *NeuronID();//test fun
 private:
 	//Add your variables here
 };

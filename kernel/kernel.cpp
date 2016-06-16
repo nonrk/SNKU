@@ -19,8 +19,19 @@ Kernel::~Kernel()
 	return;
 }
 /*test fun*/
-const char* Kernel::NeuronID()
+const char *Kernel::NeuronID()
 {
+	char* data;
+	vector<int> rep;
+	
 	NeuronBase nb;
-	return nb.activeNeuron().c_str();
+	rep=nb.activeNeuron();
+	for (int i=0;i<rep.size();i++)
+	{
+		char temp[11];
+		itoa(rep[i], temp, 10);
+		strcpy(data, temp);
+		delete[] temp;
+	}
+	return data;
 }
